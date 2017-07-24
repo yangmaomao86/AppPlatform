@@ -1,0 +1,13 @@
+<form style="text-align:center" #myform="ngForm">
+  <h1>
+    Welcome to {{title}}!!
+  </h1>
+
+  <ul>
+    <li *ngFor="let item of arr">{{item}}</li>
+  </ul>
+
+  <input type="text" name="title" [(ngModel)]="title" />
+
+
+</form>
